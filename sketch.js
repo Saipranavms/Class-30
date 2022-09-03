@@ -21,11 +21,11 @@ var backgroundImage;
 var stones = [];
 
 function preload() {
-  zombie1 = loadImage("./assets/zombie1.png");
-  zombie2 = loadImage("./assets/zombie2.png");
+  zombie1 = loadImage("zombie1.png");
+  zombie2 = loadImage("zombie2.png");
 
-  zombie3 = loadImage("./assets/zombie3.png");
-  zombie4 = loadImage("./assets/zombie4.png");
+  zombie3 = loadImage("zombie3.png");
+  zombie4 = loadImage("zombie4.png");
 
   backgroundImage = loadImage("./assets/background.png");
 }
